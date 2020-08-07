@@ -10,6 +10,7 @@ def intersection(arrays):
         for j in range(len(arrays[i])):
             cache[i][arrays[i][j]] = arrays[i][j]
 
+
     row = 1
     while row < len(arrays):
         for i in range(len(arrays[0])):
